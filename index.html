@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="is">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Xprent | Skilti, bílamerkingar og prentun</title>
+<meta name="description" content="Xprent tekur að sér flest öll prent- og merkingarverkefni: bílamerkingar, skilti, bakljósafilmur, gluggafilmu, LED skilti og prentun. Sundaborg 3, Reykjavík. Sími 555 6500.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0f1318">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="preload" href="assets/fonts/archivo-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/archivo-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="assets/img/v3/tesla-1400.webp" imagesrcset="assets/img/v3/tesla-800.webp 800w, assets/img/v3/tesla-1400.webp 1400w, assets/img/v3/tesla-2400.webp 2400w" imagesizes="100vw">
+<link rel="stylesheet" href="css/main.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Fara í efni</a>
+<div class="awning" aria-hidden="true"></div>
+<header class="bar">
+ <div class="bar__in wrap">
+  <a class="bar__home" href="#" aria-label="Xprent, efst á síðu"><img src="assets/logo-light.svg" width="1870" height="690" alt="Xprent"></a>
+  <nav class="nav" aria-label="Aðalvalmynd">
+   <a href="#thjonusta">Þjónusta</a>
+   <a href="#smidi">Smíði</a>
+   <a href="#verk">Verk</a>
+   <a href="#ferli">Svona gengur það</a>
+   <a href="#um">Um okkur</a>
+  </nav>
+  <div class="bar__act">
+   <a class="bar__tel" href="tel:+3545556500">555&nbsp;6500</a>
+   <a class="btn btn--red" href="#tilbod" data-to-form>Fá tilboð</a>
+   <button type="button" class="burger" aria-expanded="false" aria-controls="drawer"><span></span><span></span><span class="sr">Opna valmynd</span></button>
+  </div>
+ </div>
+</header>
+<div class="drawer" id="drawer" hidden data-lenis-prevent>
+ <nav aria-label="Valmynd">
+  <a href="#thjonusta">Þjónusta</a><a href="#smidi">Smíði</a><a href="#verk">Verk</a><a href="#ferli">Svona gengur það</a><a href="#um">Um okkur</a><a href="#hafa-samband">Hafa samband</a>
+ </nav>
+ <div class="drawer__foot"><a class="btn btn--red btn--block" href="#tilbod" data-to-form>Fá tilboð</a><a class="drawer__tel" href="tel:+3545556500">Sími 555&nbsp;6500</a></div>
+</div>
+
+<div class="page">
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" aria-labelledby="h1">
+ <div class="hero__media" data-hero-media>
+  <img class="hero__bg" src="assets/img/v3/tesla-1400.webp" srcset="assets/img/v3/tesla-800.webp 800w, assets/img/v3/tesla-1400.webp 1400w, assets/img/v3/tesla-2400.webp 2400w" sizes="100vw" width="4096" height="2304" alt="Tesla með litaskiptifilmu frá Xprent fyrir utan verkstæðið" fetchpriority="high">
+  <div class="hero__tint" aria-hidden="true"></div>
+ </div>
+ <div class="hero__in wrap">
+  <div class="hero__copy" data-hero-copy>
+   <p class="hero__kicker" data-hero-line><span>Gæði umfram hraða</span></p>
+   <h1 class="hero__h1" id="h1" aria-label="Skilti, bílamerkingar og prentun"><span class="ln" aria-hidden="true"><span>Skilti,</span></span><span class="ln" aria-hidden="true"><span>bílamerkingar</span></span><span class="ln" aria-hidden="true"><span>og prentun</span></span></h1>
+   <p class="hero__sub" data-hero-fade>Xprent tekur að sér flest öll prent- og merkingarverkefni. Við getum mætt á staðinn, tekið verkið út og gert tilboð.</p>
+   <div class="hero__cta" data-hero-fade><a class="btn btn--light" href="#verk">Skoða verk</a><a class="hero__tel" href="tel:+3545556500">Eða hringdu í 555&nbsp;6500</a></div>
+  </div>
+
+  <div class="qcard" id="tilbod" data-hero-card>
+   <form class="qf" novalidate data-qf aria-labelledby="qf-h">
+    <div data-state="form">
+     <h2 class="qf__h" id="qf-h">Segðu okkur frá verkinu</h2>
+     <p class="qf__p">Við svörum þér við fyrsta tækifæri.</p>
+     <fieldset class="fld chips" data-name="tegund">
+      <legend>Hvað vantar þig?</legend>
+      <div class="chips__row">
+       <label><input type="radio" name="tegund" value="Bílamerking"><span>Bílamerking</span></label>
+       <label><input type="radio" name="tegund" value="Skilti"><span>Skilti</span></label>
+       <label><input type="radio" name="tegund" value="Gluggafilma"><span>Gluggafilma</span></label>
+       <label><input type="radio" name="tegund" value="Bakljósafilma"><span>Ljósakassi</span></label>
+       <label><input type="radio" name="tegund" value="Prentun"><span>Prentun</span></label>
+       <label><input type="radio" name="tegund" value="Annað"><span>Annað</span></label>
+      </div>
+      <p class="fld__err" id="e-tegund" role="alert"></p>
+     </fieldset>
+     <div class="qf__grid">
+      <div class="fld fld--full" data-name="nafn"><label for="f-nafn">Nafn</label><input id="f-nafn" name="nafn" autocomplete="name" aria-describedby="e-nafn"><p class="fld__err" id="e-nafn" role="alert"></p></div>
+      <div class="fld" data-name="netfang"><label for="f-netfang">Netfang</label><input id="f-netfang" name="netfang" type="email" autocomplete="email" spellcheck="false" aria-describedby="e-netfang"><p class="fld__err" id="e-netfang" role="alert"></p></div>
+      <div class="fld" data-name="simi"><label for="f-simi">Sími <span class="opt">(valfrjálst)</span></label><input id="f-simi" name="simi" type="tel" autocomplete="tel" inputmode="tel"></div>
+      <div class="fld fld--full" data-name="lysing"><label for="f-lysing">Lýstu verkinu</label><textarea id="f-lysing" name="lysing" rows="2" aria-describedby="h-lysing e-lysing"></textarea><p class="fld__hint" id="h-lysing">Til dæmis stærð, magn og hvenær þú þarft verkið.</p><p class="fld__err" id="e-lysing" role="alert"></p></div>
+      <div class="fld fld--full fld--file" data-name="skrar">
+       <label class="file" for="f-skrar"><span class="file__btn">Hengja við mynd eða merki</span><span class="file__hint">Valfrjálst. Allt að 10 skrár, 25&nbsp;MB hver.</span></label>
+       <input class="sr" id="f-skrar" name="skrar" type="file" multiple accept="image/*,.pdf,.ai,.eps,.svg" aria-describedby="e-skrar">
+       <ul class="files" data-files></ul><p class="fld__err" id="e-skrar" role="alert"></p>
+      </div>
+     </div>
+     <button type="submit" class="btn btn--red btn--block btn--l" data-submit>Senda beiðni</button>
+     <p class="qf__proto">Frumgerð: beiðnin er ekki send til Xprent.</p>
+    </div>
+    <div class="qf__done" data-state="done" hidden role="status" tabindex="-1">
+     <p class="qf__h" data-done-h>Takk, beiðnin er komin til skila</p>
+     <p class="qf__p" data-done-p></p>
+     <dl class="brief" data-brief></dl>
+     <button type="button" class="btn btn--ghost" data-again>Senda aðra beiðni</button>
+    </div>
+   </form>
+  </div>
+ </div>
+</section>
+
+<!-- FACTS -->
+<section class="facts" aria-label="Xprent í stuttu máli">
+ <ul class="facts__in wrap">
+  <li data-fact><strong><span data-count="2010" data-from="1990">2010</span></strong><span>Stofnað 1. september</span></li>
+  <li data-fact><strong><span data-count="13" data-from="0">13</span></strong><span>Þjónustuflokkar undir einu þaki</span></li>
+  <li data-fact><strong><span data-count="288" data-from="0">288</span>&nbsp;×&nbsp;<span data-count="576" data-from="0">576</span></strong><span>cm LED skjár við Sundabraut</span></li>
+  <li data-fact><strong>Uppsetning</strong><span>og niðurtaka á flestum merkingum</span></li>
+ </ul>
+</section>
+
+<!-- KINETIC BAND: their services, moving with the scroll -->
+<section class="kin" aria-label="Þjónusta Xprent">
+ <div class="kin__row" data-kin="-1"><span>Bílamerkingar</span><i></i><span>Skiltagerð</span><i></i><span>Bakljósafilmur</span><i></i><span>Sandblástursfilmur</span><i></i><span>Bílamerkingar</span><i></i><span>Skiltagerð</span><i></i></div>
+ <div class="kin__row kin__row--out" data-kin="1"><span>LED skilti</span><i></i><span>Límmiðar</span><i></i><span>Risaprentun</span><i></i><span>Sérsmíði</span><i></i><span>LED skilti</span><i></i><span>Límmiðar</span><i></i></div>
+</section>
+
+<!-- SERVICES -->
+<section class="sec" id="thjonusta" aria-labelledby="svc-h">
+ <div class="wrap">
+  <div class="sec__head">
+   <h2 class="h2" id="svc-h" data-split>Þjónusta</h2>
+   <p class="sec__p" data-up>Verslanir, fyrirtæki og einstaklingar geta nýtt sér alla þá þjónustu sem við bjóðum upp á.</p>
+  </div>
+  <ul class="svc">
+   <li class="svc__i svc__i--lg"><a class="card" href="#tilbod" data-tegund="Bílamerking" data-to-form>
+    <span class="card__ph" data-curtain><img src="assets/img/works/w111-1280.webp" srcset="assets/img/works/w111-640.webp 640w, assets/img/works/w111-1280.webp 1138w" sizes="(min-width:900px) 48vw, 100vw" width="1138" height="640" alt="Heilbílamerking á sendibíl" loading="lazy" decoding="async"></span>
+    <span class="card__b"><span class="card__t">Bílamerkingar</span><span class="card__d">Merkingar á fólksbíla, sendibíla og vörubíla, bílainnpökkun og litaskiptifilmur.</span><span class="card__go">Biðja um tilboð</span></span></a></li>
+   <li class="svc__i svc__i--lg"><a class="card" href="#tilbod" data-tegund="Skilti" data-to-form>
+    <span class="card__ph" data-curtain><img src="assets/img/works/w134-1280.webp" srcset="assets/img/works/w134-640.webp 640w, assets/img/works/w134-1280.webp 1280w" sizes="(min-width:900px) 48vw, 100vw" width="1728" height="1296" alt="Upphleypt Snickers skilti í verslun" loading="lazy" decoding="async"></span>
+    <span class="card__b"><span class="card__t">Skilti og merkingar</span><span class="card__d">Skiltagerð, inni- og útimerkingar, ljósaskilti og vindskilti.</span><span class="card__go">Biðja um tilboð</span></span></a></li>
+   <li class="svc__i"><a class="card" href="#tilbod" data-tegund="Bakljósafilma" data-to-form>
+    <span class="card__ph" data-curtain><img src="assets/img/works/w3-640.webp" width="1728" height="1296" alt="Ljósakassi með bakljósafilmu, Champagne & Sparkling" loading="lazy" decoding="async"></span>
+    <span class="card__b"><span class="card__t">Bakljósafilmur</span><span class="card__d">Prentun fyrir ljósakassa og upplýst skilti.</span></span></a></li>
+   <li class="svc__i"><a class="card" href="#tilbod" data-tegund="Gluggafilma" data-to-form>
+    <span class="card__ph" data-curtain><img src="assets/img/works/w101-640.webp" width="790" height="658" alt="Gluggamerking með Parísarmynd" loading="lazy" decoding="async"></span>
+    <span class="card__b"><span class="card__t">Gluggafilma</span><span class="card__d">Sandblástursfilmur, sólarfilmur og öryggisfilmur.</span></span></a></li>
+   <li class="svc__i"><a class="card" href="#tilbod" data-tegund="Skilti" data-to-form>
+    <span class="card__ph" data-curtain><img src="assets/img/works/w144-640.webp" width="1138" height="640" alt="Neonskilti sem á stendur Opið" loading="lazy" decoding="async"></span>
+    <span class="card__b"><span class="card__t">LED skilti</span><span class="card__d">Fjarstýrð LED vegg- eða gluggaskilti með litastillingu.</span></span></a></li>
+   <li class="svc__i"><a class="card" href="#tilbod" data-tegund="Prentun" data-to-form>
+    <span class="card__ph" data-curtain><img src="assets/img/works/w67-640.webp" width="1138" height="640" alt="Sýningarrými með prentuðum veggjum" loading="lazy" decoding="async"></span>
+    <span class="card__b"><span class="card__t">Prentun</span><span class="card__d">Risaprentun, ljósmyndaprentun, rúllustandar og fánar.</span></span></a></li>
+   <li class="svc__i"><a class="card" href="#tilbod" data-tegund="Prentun" data-to-form>
+    <span class="card__ph" data-curtain><img src="assets/img/works/w51-640.webp" width="1138" height="640" alt="Límmiðar í prentun" loading="lazy" decoding="async"></span>
+    <span class="card__b"><span class="card__t">Límmiðar</span><span class="card__d">Límmiðar, veggmerkingar og filmuskurður.</span></span></a></li>
+   <li class="svc__i"><a class="card" href="#tilbod" data-tegund="Annað" data-to-form>
+    <span class="card__ph" data-curtain><img src="assets/img/works/w131-640.webp" width="1138" height="640" alt="Innréttingar klæddar með filmu" loading="lazy" decoding="async"></span>
+    <span class="card__b"><span class="card__t">Sérsmíði</span><span class="card__d">Upplíming á álplötur, pvc plötur og plexíplötur, innréttingafilmun.</span></span></a></li>
+   <li class="svc__i svc__i--text" data-up><a class="card card--dark" href="#tilbod" data-tegund="Annað" data-to-form>
+    <span class="card__b"><span class="card__t">Ekkert merki ennþá?</span><span class="card__d">Grafísk hönnun: logoteikning, umbrotsvinnsla, hugmyndavinnsla og útlitshönnun. Við hönnum og merkjum.</span><span class="card__go">Biðja um tilboð</span></span></a></li>
+  </ul>
+ </div>
+</section>
+
+<!-- SIGNATURE: their own exploded X sign, layer by layer -->
+<section class="build" id="smidi" aria-labelledby="build-h">
+ <div class="build__pin" data-build>
+  <div class="wrap build__in">
+   <div class="build__tx">
+    <h2 class="h2 h2--light" id="build-h" data-split>Skilti, lag fyrir lag</h2>
+    <p class="build__p" data-up>Svona er X-skiltið okkar byggt upp. Við teiknum, smíðum og setjum upp sjálf.</p>
+    <ol class="build__spec">
+     <li data-layer-label="0"><b>Framhlið</b><span>4mm Polycarbonate</span></li>
+     <li data-layer-label="1"><b>Rammi</b><span>1mm sprautað ál</span></li>
+     <li data-layer-label="2"><b>Bak</b><span>10mm PVC</span></li>
+    </ol>
+   </div>
+   <div class="build__stage" aria-hidden="true">
+    <div class="build__obj" data-build-obj>
+     <img class="build__layer build__layer--back" src="assets/img/v3/x-back.svg" alt="" data-layer="2">
+     <img class="build__layer build__layer--back build__layer--edge" src="assets/img/v3/x-back.svg" alt="" data-layer="2" style="--e:1">
+     <img class="build__layer build__layer--back build__layer--edge" src="assets/img/v3/x-back.svg" alt="" data-layer="2" style="--e:2">
+     <img class="build__layer build__layer--frame" src="assets/img/v3/x-frame.svg" alt="" data-layer="1">
+     <img class="build__layer build__layer--front" src="assets/img/v3/x-front.svg" alt="" data-layer="0">
+    </div>
+   </div>
+  </div>
+ </div>
+ <img class="sr" src="assets/img/v3/spec-1138.webp" alt="Teikning Xprent af X-skilti: bak úr 10mm PVC, rammi úr 1mm sprautuðu áli, framhlið úr 4mm Polycarbonate" loading="lazy">
+</section>
+
+<!-- WORK: horizontal journey on desktop, swipe strip on phones -->
+<section class="work" id="verk" aria-labelledby="verk-h">
+ <div class="work__pin" data-work>
+  <div class="wrap work__head">
+   <h2 class="h2" id="verk-h" data-split>Verk</h2>
+   <div class="work__meter" aria-hidden="true"><span class="work__count"><b data-work-i>01</b> / 10</span><span class="work__bar"><i data-work-bar></i></span></div>
+  </div>
+  <ul class="work__track" data-work-track>
+   <li><a href="assets/img/works/w124-1280.webp" data-t="RIFF" data-s="Bílamerking"><span class="work__ph"><img src="assets/img/works/w124-1280.webp" srcset="assets/img/works/w124-640.webp 640w, assets/img/works/w124-1280.webp 1138w" sizes="(max-width: 899px) 78vw, 1280px" width="1138" height="640" alt="Myndskreyttur flutningabíll fyrir RIFF" loading="lazy" decoding="async"></span><span class="work__c"><b>RIFF</b><i>Bílamerking</i></span></a></li>
+   <li><a href="assets/img/works/w4-1280.webp" data-t="Airbus A321neo" data-s="Bakljósafilma"><span class="work__ph"><img src="assets/img/works/w4-1280.webp" srcset="assets/img/works/w4-640.webp 640w, assets/img/works/w4-1280.webp 1280w" sizes="(max-width: 899px) 78vw, 1280px" width="1728" height="1296" alt="Ljósakassi með Airbus auglýsingu" loading="lazy" decoding="async"></span><span class="work__c"><b>Airbus A321neo</b><i>Bakljósafilma</i></span></a></li>
+   <li><a href="assets/img/works/w138-1280.webp" data-t="Toblerone" data-s="Skilti"><span class="work__ph work__ph--tall"><img src="assets/img/works/w138-1280.webp" srcset="assets/img/works/w138-640.webp 640w, assets/img/works/w138-1280.webp 1280w" sizes="(max-width: 899px) 62vw, 1280px" width="1296" height="1728" alt="Upplýstur Toblerone standur í verslun" loading="lazy" decoding="async"></span><span class="work__c"><b>Toblerone</b><i>Skilti</i></span></a></li>
+   <li><a href="assets/img/works/w106-1280.webp" data-t="Collab" data-s="Bílamerking"><span class="work__ph"><img src="assets/img/works/w106-1280.webp" srcset="assets/img/works/w106-640.webp 640w, assets/img/works/w106-1280.webp 1138w" sizes="(max-width: 899px) 78vw, 1280px" width="1138" height="640" alt="Vörubíll merktur Collab" loading="lazy" decoding="async"></span><span class="work__c"><b>Collab</b><i>Bílamerking</i></span></a></li>
+   <li><a href="assets/img/works/w142-1280.webp" data-t="Bath &amp; Body Works" data-s="Skilti"><span class="work__ph"><img src="assets/img/works/w142-1280.webp" srcset="assets/img/works/w142-640.webp 640w, assets/img/works/w142-1280.webp 1080w" sizes="(max-width: 899px) 78vw, 1280px" width="1080" height="810" alt="Upplýstir stafir Bath & Body Works" loading="lazy" decoding="async"></span><span class="work__c"><b>Bath &amp; Body Works</b><i>Skilti</i></span></a></li>
+   <li><a href="assets/img/works/w117-1280.webp" data-t="Læknavaktin" data-s="Bílamerking"><span class="work__ph"><img src="assets/img/works/w117-1280.webp" srcset="assets/img/works/w117-640.webp 640w, assets/img/works/w117-1280.webp 1138w" sizes="(max-width: 899px) 78vw, 1280px" width="1138" height="640" alt="Bíll Læknavaktarinnar merktur" loading="lazy" decoding="async"></span><span class="work__c"><b>Læknavaktin</b><i>Bílamerking</i></span></a></li>
+   <li><a href="assets/img/works/w100-1280.webp" data-t="Inngangur" data-s="Sandblástursfilma"><span class="work__ph work__ph--tall"><img src="assets/img/works/w100-1280.webp" srcset="assets/img/works/w100-640.webp 640w, assets/img/works/w100-1280.webp 800w" sizes="(max-width: 899px) 62vw, 1280px" width="800" height="896" alt="Inngangur með sandblástursfilmu" loading="lazy" decoding="async"></span><span class="work__c"><b>Inngangur</b><i>Sandblástursfilma</i></span></a></li>
+   <li><a href="assets/img/works/w136-1280.webp" data-t="M&amp;M's" data-s="Skilti"><span class="work__ph"><img src="assets/img/works/w136-1280.webp" srcset="assets/img/works/w136-640.webp 640w, assets/img/works/w136-1280.webp 1280w" sizes="(max-width: 899px) 78vw, 1280px" width="1728" height="1296" alt="Upplýst M&M's skilti" loading="lazy" decoding="async"></span><span class="work__c"><b>M&amp;M's</b><i>Skilti</i></span></a></li>
+   <li><a href="assets/img/works/w119-1280.webp" data-t="Land Rover" data-s="Mattsvört filma"><span class="work__ph"><img src="assets/img/works/w119-1280.webp" srcset="assets/img/works/w119-640.webp 640w, assets/img/works/w119-1280.webp 1138w" sizes="(max-width: 899px) 78vw, 1280px" width="1138" height="640" alt="Land Rover klæddur mattsvartri filmu" loading="lazy" decoding="async"></span><span class="work__c"><b>Land Rover</b><i>Mattsvört filma</i></span></a></li>
+   <li><a href="assets/img/works/w123-1280.webp" data-t="Rafgæði" data-s="Bílamerking"><span class="work__ph"><img src="assets/img/works/w123-1280.webp" srcset="assets/img/works/w123-640.webp 640w, assets/img/works/w123-1280.webp 1138w" sizes="(max-width: 899px) 78vw, 1280px" width="1138" height="640" alt="Sendibíll merktur Rafgæði" loading="lazy" decoding="async"></span><span class="work__c"><b>Rafgæði</b><i>Bílamerking</i></span></a></li>
+  </ul>
+ </div>
+</section>
+
+<!-- PROCESS: sticky image changes with each step -->
+<section class="sec proc" id="ferli" aria-labelledby="ferli-h">
+ <div class="wrap proc__in">
+  <div class="proc__media" aria-hidden="true">
+   <div class="proc__frame">
+    <img class="proc__img is-on" src="assets/img/works/w10-1280.webp" width="1138" height="640" alt="" data-step-img="0" loading="lazy">
+    <img class="proc__img" src="assets/img/v3/spec-1138.webp" width="1138" height="640" alt="" data-step-img="1" loading="lazy">
+    <img class="proc__img" src="assets/img/v3/vinyl-hand-1400.webp" width="4096" height="2304" alt="" data-step-img="2" loading="lazy">
+   </div>
+  </div>
+  <div class="proc__tx">
+   <h2 class="h2" id="ferli-h" data-split>Svona gengur það fyrir sig</h2>
+   <ol class="steps">
+    <li data-step="0"><span class="steps__n">01</span><h3>Þú segir frá verkinu</h3><p>Í forminu efst á síðunni, í síma 555&nbsp;6500 eða á konni@xprent.is. Mynd eða merki hjálpar. Vantar hönnun? Við sjáum um hana.</p></li>
+    <li data-step="1"><span class="steps__n">02</span><h3>Við tökum verkið út</h3><p>Við getum mætt á staðinn, tekið verkið út og gert tilboð. Fagleg ráðgjöf með áratuga reynslu.</p></li>
+    <li data-step="2"><span class="steps__n">03</span><h3>Framleiðsla og uppsetning</h3><p>Uppsetningar og niðurtaka á flestum merkingum. Ef það vantar körfubíl í verkefnið, þá reddum við því líka.</p></li>
+   </ol>
+   <a class="btn btn--red" href="#tilbod" data-to-form data-up>Fá tilboð</a>
+  </div>
+ </div>
+</section>
+
+<!-- X-LED -->
+<section class="xled" aria-labelledby="xl-h">
+ <div class="wrap xled__in">
+  <div class="xled__tx">
+   <h2 class="h2 h2--light" id="xl-h" data-split>Viltu auglýsa?</h2>
+   <p class="xled__lead" data-up>Xprent er með stóran LED skjá við Sundabraut.</p>
+   <dl class="spec" data-up>
+    <div><dt>Stærð</dt><dd>288&nbsp;cm x 576&nbsp;cm</dd></div>
+    <div><dt>Birting</dt><dd>Hver auglýsing er birt í 8&nbsp;sek.</dd></div>
+    <div><dt>Á sólarhring</dt><dd>720 birtingar, 96&nbsp;mín skjátími</dd></div>
+   </dl>
+   <p class="xled__p" data-up>Xprent leigir einnig út tvo færanlega LED skjái fyrir kynningar og uppákomur.</p>
+   <a class="btn btn--light" href="tel:+3545556500" data-up>Hringdu í 555&nbsp;6500</a>
+  </div>
+  <div class="xled__ph" data-curtain><img src="assets/img/hero/xled-crop.webp" width="600" height="400" alt="X-LED skjár Xprent á húsi við Sundabraut" loading="lazy" decoding="async"></div>
+ </div>
+</section>
+
+<!-- CUSTOMERS -->
+<section class="sec" aria-labelledby="cust-h">
+ <div class="wrap">
+  <div class="sec__head"><h2 class="h2" id="cust-h" data-split>Viðskiptavinir</h2></div>
+  <ul class="logos" data-stagger>
+   <li><img src="assets/customers/dutyfree_logo_rgb.png" width="647" height="647" alt="Duty Free Iceland" loading="lazy"></li>
+   <li><img src="assets/customers/66nlogo_rgb.png" width="647" height="647" alt="66°Norður" loading="lazy"></li>
+   <li><img src="assets/customers/islandshoyel_logo_rgb.png" width="647" height="647" alt="Íslandshótel" loading="lazy"></li>
+   <li><img src="assets/customers/redcross_logo_rgb.png" width="647" height="647" alt="Rauði krossinn" loading="lazy"></li>
+   <li><img src="assets/customers/origo_logo_rgb.png" width="647" height="647" alt="Origo" loading="lazy"></li>
+   <li><img src="assets/customers/riff_logo_rgb.png" width="647" height="647" alt="RIFF" loading="lazy"></li>
+   <li><img src="assets/customers/nathanolsen_logo_rgb.png" width="647" height="647" alt="Nathan & Olsen" loading="lazy"></li>
+   <li><img src="assets/customers/tulipop_logo_rgb.png" width="647" height="647" alt="Tulipop" loading="lazy"></li>
+   <li><img src="assets/customers/pureperforance_logo_rgb.png" width="647" height="647" alt="Pure Performance" loading="lazy"></li>
+   <li><img src="assets/customers/artica_logo_rgb.png" width="647" height="647" alt="Artica" loading="lazy"></li>
+   <li><img src="assets/customers/tri_logo_rgb.png" width="647" height="647" alt="TRI" loading="lazy"></li>
+   <li><img src="assets/customers/terma_logo_rgb.png" width="647" height="647" alt="Terma" loading="lazy"></li>
+  </ul>
+ </div>
+</section>
+
+<!-- ABOUT -->
+<section class="sec sec--grey" id="um" aria-labelledby="um-h">
+ <div class="wrap about">
+  <div class="about__l">
+   <h2 class="h2" id="um-h" data-split>Um Xprent</h2>
+   <p class="about__lead" data-up>Xprent hönnun og merkingar ehf. var stofnað 1. september 2010. Frá þeim tíma hefur fyrirtækið vaxið og dafnað vel. Xprent tekur að sér flest öll prent- og merkingarverkefni.</p>
+  </div>
+  <ul class="pillars" data-stagger>
+   <li><h3>Öflugt teymi</h3><p>Allir starfsmenn Xprent eru þjálfaðir af fagmanni. Einkunnarorð Xprent eru gæði umfram hraða.</p></li>
+   <li><h3>Fagleg ráðgjöf</h3><p>Starfsmenn Xprent hafa unnið hjá öðrum skiltagerðum og eru með mikla reynslu, ennfremur leggja starfsmenn sig fram við að veita ráðgjöf og persónulega þjónustu til viðskiptavina.</p></li>
+   <li><h3>Heildarlausnir</h3><p>Við tökum að okkur heildarlausnir fyrir bæði stór og lítil fyrirtæki.</p></li>
+  </ul>
+ </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="hafa-samband" aria-labelledby="hs-h">
+ <div class="wrap contact__in">
+  <div>
+   <h2 class="h2 h2--xl" id="hs-h" data-split>Hafðu samband</h2>
+   <p class="contact__lead" data-up>Viltu fá tilboð í verkið eða ertu með spurningar? Hafðu endilega samband og við svörum þér við fyrsta tækifæri.</p>
+   <a class="btn btn--white btn--l" href="#tilbod" data-to-form data-up>Fá tilboð</a>
+  </div>
+  <dl class="contact__dl" data-stagger>
+   <div><dt>Sími</dt><dd><a href="tel:+3545556500">555&nbsp;6500</a></dd></div>
+   <div><dt>Netfang</dt><dd><a href="mailto:konni@xprent.is">konni@xprent.is</a></dd></div>
+   <div><dt>Heimilisfang</dt><dd>Sundaborg 3, 104 Reykjavík</dd></div>
+  </dl>
+ </div>
+</section>
+</main>
+
+<footer class="foot">
+ <div class="wrap foot__in">
+  <img src="assets/logo-light.svg" width="1870" height="690" alt="Xprent" class="foot__logo" loading="lazy">
+  <p>Xprent hönnun og merkingar ehf. · Sundaborg 3, 104 Reykjavík · 555&nbsp;6500</p>
+  <p class="foot__credit"><a href="https://sndrstudio.is" rel="noopener">Designed by SNDR Studio</a></p>
+ </div>
+</footer>
+</div>
+
+<dialog class="lb" id="lb" aria-label="Mynd" data-lenis-prevent>
+ <button type="button" class="lb__x" data-lb-close>Loka</button>
+ <figure><img class="lb__img" alt=""><figcaption><b class="lb__t"></b> <span class="lb__s"></span></figcaption></figure>
+ <div class="lb__nav"><button type="button" data-lb-prev>Fyrri</button><button type="button" data-lb-next>Næsta</button><a class="btn btn--red" href="#tilbod" data-lb-cta>Fá tilboð í svona verk</a></div>
+</dialog>
+<script src="js/vendor/gsap.min.js" defer></script>
+<script src="js/vendor/ScrollTrigger.min.js" defer></script>
+<script src="js/vendor/lenis.min.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
